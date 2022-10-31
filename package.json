@@ -1,0 +1,27 @@
+{
+  "name": "add_books_to_cart",
+  "version": "1.0.0",
+  "description": "> This is a team project being built in our second module of our curriculum at microverse. its a book application were you are able to add and remove book to a list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XRichardroidX/Add_Books_to_Cart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XRichardroidX/Add_Books_to_Cart/issues"
+  },
+  "homepage": "https://github.com/XRichardroidX/Add_Books_to_Cart#readme",
+  "devDependencies": {
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

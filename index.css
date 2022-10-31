@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  align-items: end;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 3.5px solid black;
+  top: 60px;
+  position: fixed;
+  width: 98%;
+  margin: 0 0 0 1%;
+}
+
+#time {
+  position: absolute;
+  top: 130px;
+  right: 25px;
+  z-index: 999;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.nav-link #nav-link {
+  color: blue;
+}
+
+.nav-link #nav-link:hover {
+  color: blue;
+}
+
+.nav-link .add-new:hover {
+  color: blue;
+}
+
+.nav-link #contact:hover {
+  color: blue;
+}
+
+.time {
+  text-align: right;
+  margin: -15rem 30px 0 0;
+}
+
+.form-none {
+  display: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.main-list {
+  display: none;
+}
+
+hr {
+  height: 20px;
+  background-color: black;
+}
+
+.AddBook {
+  margin: 20px;
+  padding: 10px;
+  border: 3.5px solid black;
+}
+
+#list ul {
+  list-style-type: none;
+}
+
+.book-odd {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(195, 192, 192);
+}
+
+.book-even {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.book-info {
+  display: flex;
+  padding: 10px;
+}
+
+.book-info p {
+  margin: 0 5px 0 5px;
+  font-weight: 550;
+  font-family: "Gill Sans MT", "Trebuchet MS", serif;
+  font-size: 18px;
+}
+
+.remove-btn {
+  background-color: white;
+  box-shadow: 0 2px 5px;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#my-form h2 {
+  text-align: center;
+
+  /* padding: 0 0 0 12%; */
+}
+
+.form input {
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  width: 300px;
+}
+
+.Add-BTN {
+  padding: 2px 8px 2px 8px;
+  box-shadow: 0 4px 12px;
+  border: 3px solid black;
+  margin: auto;
+}
+
+#errorMsg {
+  color: red;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section-none {
+  display: none;
+}
+
+.contact-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.contact-section p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contact-section li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  padding: 10px 30px 10px 30px;
+  border: 3.5px solid black;
+  margin: 10% 1% 2% 1%;
+}
+
+.footer p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
