@@ -84,8 +84,6 @@ Please use the following link to access the website:
 
 ## 🚀 Project Details 
 
-- [Kanban Board](https://github.com/KIsmoilov/JS-Capstone-Project/projects/1)
-
 - Team 
    👤 **Author1**
 
