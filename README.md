@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <img src="./src/images/microverse_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="microverse_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -77,7 +77,7 @@ Please use the following link to access the website:
 <div align="center">
 
   <br/>
-  
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
