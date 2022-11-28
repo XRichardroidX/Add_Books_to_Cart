@@ -76,9 +76,8 @@ Please use the following link to access the website:
 
 <div align="center">
 
-  <img src="./src/images/Screen_Shot.png" alt="screenshot" width="auto"  height="auto" />
   <br/>
-
+  
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
