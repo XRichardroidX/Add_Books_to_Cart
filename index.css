@@ -104,12 +104,12 @@ hr {
 .book-info p {
   margin: 0 5px 0 5px;
   font-weight: 550;
-  font-family: "Gill Sans MT", "Trebuchet MS", serif;
+  font-family: "Gill Sans MT", serif;
   font-size: 18px;
 }
 
 .remove-btn {
-  background-color: white;
+  background-color: #fff;
   box-shadow: 0 2px 5px;
   border: 2px solid black;
   padding: 4px;
