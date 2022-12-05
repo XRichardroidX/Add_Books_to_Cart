@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
 
-<body>
-    <header>
-        <h3>Awesome Books</h3>
-        <nav>
-            <ul class="nav-link">
-                <li id="nav-link">List</li>
-                <hr />
-                <li id="add-new" class="add-new">Add new</li>
-                <hr />
-                <li id="contact">Contact</li>
+    <body>
+        <header>
+            <h3>Awesome Books</h3>
+            <nav>
+                <ul class="nav-link">
+                    <li id="nav-link">List</li>
+                    <hr />
+                    <li id="add-new" class="add-new">Add new</li>
+                    <hr />
+                    <li id="contact">Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <p id="time"></p>
+        <main class="main" id="my-main">
+            <h1>All awesome books</h1>
+            <section class="AddBook" id="add-new">
+                <div id="list">
+                    <ul class="render-container"></ul>
+                    <b id="errorMsg"></b>
+                </div>
+            </section>
+        </main>
+
+        <form action="" class="form-none" id="my-form">
+            <h2>Add a new book</h2>
+
+            <input type="text" id="title" placeholder="Title" />
+
+            <input type="text" id="author" placeholder="Author" />
+
+            <button type="submit" id="add-button" class="Add-BTN">Add</button>
+            <b id="errorMsg"></b>
+        </form>
+
+        <section class="contact-section-none" id="my-contact">
+            <h1>Contact Information</h1>
+            <p>
+                Do you have any questions or you just want to say "Hello"? You can reach out to us!
+            </p>
+            <ul>
+                <li>Our e-mail awesomebooks@mail.com</li>
+                <li>Our phone number 0990909090939</li>
+                <li>Our address Nigeria and Uzbekistan 2022</li>
             </ul>
-        </nav>
-    </header>
-    <p id="time"></p>
-    <main class="main" id="my-main">
-        <h1>All awesome books</h1>
-        <section class="AddBook" id="add-new">
-            <div id="list">
-                <ul class="render-container"></ul>
-                <b id="errorMsg"></b>
-            </div>
         </section>
-    </main>
-
-    <form action="" class="form-none" id="my-form">
-        <h2>Add a new book</h2>
-
-        <input type="text" id="title" placeholder="Title" />
-
-        <input type="text" id="author" placeholder="Author" />
-
-        <button type="submit" id="add-button" class="Add-BTN">Add</button>
-        <b id="errorMsg"></b>
-    </form>
-
-    <section class="contact-section-none" id="my-contact">
-        <h1>Contact Information</h1>
-        <p>
-            Do you have any questions or you just want to say "Hello"? You can reach out to us!
-        </p>
-        <ul>
-            <li>Our e-mail awesomebooks@mail.com</li>
-            <li>Our phone number 0990909090939</li>
-            <li>Our address Nigeria and Uzbekistan 2022</li>
-        </ul>
-    </section>
-    <footer class="footer">
-        <p>&copy; Copyright 2022</p>
-    </footer>
-    <script type="module" src="index.js"></script>
-</body>
+        <footer class="footer">
+            <p>&copy; Copyright 2022</p>
+        </footer>
+        <script type="module" src="index.js"></script>
+    </body>
 
 </html>
