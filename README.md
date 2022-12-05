@@ -87,7 +87,6 @@ Please use the following link to access the website:
      - GitHub: [@githubhandle](https://github.com/xrichardroidx)
      - Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
      - LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231)
-     - [Khusniddin Ismoilov](https://github.com/KIsmoilov)
      
 ## Getting Started
 
